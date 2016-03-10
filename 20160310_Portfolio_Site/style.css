@@ -1,0 +1,174 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #cccccc;
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+#wrap {
+	width: 816px;
+	background: #fff;
+	margin: auto;
+	border-radius: 1em;
+}
+
+#header p {
+	padding: 0;
+	margin: 0px;
+	clear: both;
+}
+
+.header_left {
+	width: auto;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px
+}
+
+.header_right {
+	float: left;
+	padding: 5px;
+	width: auto;
+	height: auto;
+}
+
+#footer {
+	clear: both;
+	overflow: hidden;
+	margin: 0;
+	border-top: 4px solid #000;
+	color: black;
+	text-margin: 20px;
+}
+
+.footertext {
+	margin: 20px;
+	font-size: 14px;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#navigation {
+	background: #000;
+	color: #fff;
+	overflow: hidden;
+	clear: both;
+	height: 36px auto;
+	margin: 0px 0;
+}
+
+#navigation a {
+	color: #fff;
+}
+
+#navigation a:hover {
+	color: #000;
+}
+
+#navigation ul {
+	margin: 9px 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#navigation ul li {
+	display: inline-block;
+}
+
+.menu-trigger {
+	display: none;
+}
+
+#navigation ul li a {
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+#navigation ul li a:hover {
+	background: #e4e4e4;
+}
+
+#content {
+	clear: both;
+	overflow: hidden;
+}
+
+#banner {
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: auto;
+}
+
+.slider {
+	width: 100%;
+	height: auto;
+}
+
+.slider img {
+	width: 100%;
+	height: auto;
+}
+
+
+#main {
+	width: auto;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	margin-bottom: 30px;
+}
+
+#contactForm {
+
+}
+
+@media (max-width: 816px) {
+	#wrap {
+		width: auto;
+        margin: 0 auto;
+        border-radius: 0;
+        padding: 0;
+    }
+    
+    
+}
+
+@media (max-width: 420px) {
+	#navigation ul li{
+		width:100%;
+		display:inline-block;
+        margin: 0 auto;
+        border-radius: 0;
+        padding: 7px;
+	}
+	
+	.menu-trigger {
+		display:inline-block;
+		padding-top: 2px;
+		float:right;
+		padding-right: 10px;
+	}
+	
+	#navigation ul{
+		display: none;
+	}
+	   
+	#nav-expand {
+		display: block;
+	}
+
+}
